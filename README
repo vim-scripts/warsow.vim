@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1595
+
+This is a syntax script for WarSoW game config and hud script files. It features all commands, variables and keywords for player config files and variables, constants and operators for HUD scripting files.
+
+Changelog:
+1.0.21 Release (2.01.2007)
+- update for War§oW 0.21 version changes
+- added dynvars
+
+Visit project page on:
+http://www.haze.ehost.pl/spoonman/index.php5?p=8
+
+Examples (using dusk.vim colorscheme):
+http://www.haze.ehost.pl/spoonman/images/warsow-vim1.png
+http://www.haze.ehost.pl/spoonman/images/warsow-vim2.png
+
+Your suggestions are very welcome. I plan to maintain and update this file as WarSoW development continues.
