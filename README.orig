@@ -1,0 +1,78 @@
+
+0. About
+--------------------------------------------------------------------------------
+
+    War§oW Vim syntax file v 1.0.21 (2.01.2007)
+    Copyright (C) 2006-2007 by Tomasz 'SpOOnman' Kalkosiński <spoonman@op.pl>
+
+    It features all commands, variables and keywords for player config files
+    and variables, constants and operators for HUD scripting files.
+
+1. Legal notice
+--------------------------------------------------------------------------------
+
+    Author  : Tomasz 'SpOOnman' Kalkosiński <spoonman@op.pl>
+    URL     : http://www.haze.ehost.pl/spoonman/
+    IRC     : #clan.ppp @ QuakeNet
+    Licence : GPL2
+
+    Your opinions are very welcome. If you find it useful and want to comment,
+    please send me an email <spoonman@op.pl>.
+
+
+2. Requirements
+--------------------------------------------------------------------------------
+
+    1. Vim/gVim text editor - http://www.vim.org
+    2. War§oW free game - http://www.warsow.net
+
+3. Installation
+--------------------------------------------------------------------------------
+
+    1. Unzip all files into your $HOME/syntax/ directory.
+
+4. Usage
+--------------------------------------------------------------------------------
+
+    1. Execute while in Vim/gVim:
+       :set syntax=warsow
+
+5. Changelog
+--------------------------------------------------------------------------------
+
+    1.0.21 Release (2.01.2007)
+    - update for War§oW 0.21 version changes
+    - added dynvars
+
+    1.0 Release (30.06.2006)
+    - first public release
+ 
+6. Notes and Known issues
+--------------------------------------------------------------------------------
+
+    I also use ftype detection for this syntax file. All files that are opened
+    from my ~/.warsow directory uses this syntax.
+
+    If you want to have the same way:
+    1. Create $HOME/ftdetect/warsow.vim
+    2. Insert this line:
+       au BufRead,BufNewFile */.warsow/*       set filetype=warsow
+
+7. History and credits
+--------------------------------------------------------------------------------
+
+    I created this file when I started playing War§oW game. It's not so popular
+    nowadays but I update this file from time to time.
+
+    Cheers for Madzia <3, moja piękna ;)
+
+8. Files 
+--------------------------------------------------------------------------------
+
+    Files included in warsow-vim-syntax-1.0.21.zip:
+
+    - warsow.vim
+    - README
+    - COPYING
+
+--------------------------------------------------------------------------------
